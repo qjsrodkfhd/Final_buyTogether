@@ -1,14 +1,21 @@
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-<%@ page session="false" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%
+	String cp = request.getContextPath();
+%>
+<%@ page session="false"%>
+
 <html>
 <head>
-	<title>Home</title>
+<link href="<%=cp%>/resources/bootstrap/css/bootstrap.min.css"
+	rel="stylesheet">
+<title>Home</title>
+
 </head>
 <body>
-<h1>
-	Hello world!  
-</h1>
+	<script src="http://code.jquery.com/jquery-2.1.1.min.js"
+		type="text/javascript"></script>
+	<script src="<%=cp%>/resources/bootstrap/js/bootstrap.min.js"></script>
 
-<P>  The time on the server is ${serverTime}. </P>
-</body>
+	
+
 </html>
