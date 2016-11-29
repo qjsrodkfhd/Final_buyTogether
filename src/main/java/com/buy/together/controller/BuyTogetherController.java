@@ -18,5 +18,4 @@ public class BuyTogetherController {
 	@Inject
 	private BuyTogetherService service;
 	
-	
 }

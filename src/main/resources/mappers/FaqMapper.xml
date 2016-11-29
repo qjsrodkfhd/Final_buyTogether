@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+	PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+	
+<mapper namespace="com.buy.together.mapper.FaqMapper">
+	
+	<select id="listFaq" resultType="Board">
+		<![CDATA[
+			select board_number, board_title
+		
+		
+		
+		]]>
+	</select>
+	
+	
+
+</mapper>
+
+
+
+
